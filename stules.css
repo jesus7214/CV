@@ -1,0 +1,65 @@
+body {
+  border: solid 1px black;
+  border-radius: 5px;
+  width: 70%;
+  margin: auto;
+}
+
+.contenedor {
+  display: grid;
+  grid-template-columns: 40% 59%;
+  gap: 10px;
+  margin: 15px;
+}
+.contenedor-izq {
+  display: flex;
+}
+.contenedor-izq .name {
+  margin: auto;
+  width: 150px;
+  height: 160px;
+  border-radius: 10px;
+  box-shadow: 1px 1px 6px 2px;
+}
+
+.contenedor-skills {
+  margin-top: 10%;
+  font-size: 18px;
+}
+
+.contenedor-der h2 {
+  background-color: rgba(177, 166, 166, 0.827);
+  text-align: center;
+}
+.contenedor-der article p {
+  text-align: justify;
+}
+span {
+  font-weight: bold;
+}
+.contenedor-der{
+font-size: 18px;
+}
+footer {
+  position: relative;
+  background-image: url(img/baner.jpg);
+  height: 60px;
+}
+
+.jesus {
+  text-align: end;
+  height: 30px;
+  position: absolute;
+  bottom: 5px;
+  right: 0;
+  margin-right: 20px;
+}
+
+.img2 {
+  display: flex;
+  justify-content: end;
+}
+.image-profile {
+  width: 100px;
+  border-radius: 25px;
+}
